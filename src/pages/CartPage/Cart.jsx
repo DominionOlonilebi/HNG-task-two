@@ -61,7 +61,7 @@ const Cart = () => {
         emptyCartMsg
       ) : (
         <section fluid className=" pb-5">
-          <div className="container pb-5 pt-4">
+          <div className="container py-5">
             <div className="table-responsive">
               <table className="table">
                 <thead>

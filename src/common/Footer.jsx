@@ -35,11 +35,11 @@ const Footer = () => {
             <div className="col-md-4 col-12 mb-3">
               <h5 className="mb-4">Contact</h5>
               <p>
-                <FaLocationDot /> &nbsp; Ikorodu, Lagos State Nigeria
+                <FaLocationDot /> &nbsp; 5, Awolowo Road, Ikoyi, Lagos Nigeria.
               </p>
               <p>
-                <FaPhone /> &nbsp; +2348012345678
-                <br /> &nbsp; &nbsp; &nbsp; +2348012345678
+                <FaPhone /> &nbsp; +234 805 612 5571
+                <br /> &nbsp; &nbsp; &nbsp; +234 912 759 0356
               </p>
             </div>
             <div className="col-md-3 col-12 mb-3">

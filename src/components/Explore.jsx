@@ -30,7 +30,7 @@ const Explore = () => {
           </div>
         </div>
         <div className="explore-img mt-5">
-          <img src="./img/pic 1.png" alt="laptop image" className="img-fluid"/>
+          <img src="./img/pic 1.png" alt="laptop image" className="img-fluid mb-5"/>
         </div>
       </div>
     </div>

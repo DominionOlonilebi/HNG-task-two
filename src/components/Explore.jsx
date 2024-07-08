@@ -29,7 +29,9 @@ const Explore = () => {
             </div>
           </div>
         </div>
-        <div className="explore-img mt-5"></div>
+        <div className="explore-img mt-5">
+          <img src="./img/pic 1.png" alt="laptop image" className="img-fluid"/>
+        </div>
       </div>
     </div>
   );

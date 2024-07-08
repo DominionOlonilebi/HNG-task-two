@@ -4,12 +4,13 @@ import { InputGroup } from "react-bootstrap";
 const BackgroundSlider = () => {
   return (
     <section fluid className="background-section">
-      <div className="container py-5">
+      <img src="./img/pic 1.png" alt="phone image"  className="img-fluid"/>
+      <div className="container pt-5 pb-3">
         <div className="row g-5 align-items-center justify-content-center d-flex">
-          <div className="col-12">
-            <h1 className="mb-3">Phones</h1>
+          <div className="col-12 background-div">
+            <h1 className="mb-3 text-center">Phones</h1>
             <div className="form d-flex justify-content-center">
-              <div className="col-md-5">
+              <div className="col-md-5 background-input">
                 <InputGroup>
                   <input
                     type="text"

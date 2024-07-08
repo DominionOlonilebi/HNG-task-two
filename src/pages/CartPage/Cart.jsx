@@ -44,7 +44,9 @@ const Cart = () => {
 
   return (
     <>
-      <div className="cart-page"></div>
+      <div className="cart-page">
+        <img src="./img/pic 1.png" alt="phone img" className="img-fluid"/>
+      </div>
 
       <section fluid className=" page-header py-3">
         <ol className="breadcrumb justify-content-center mb-0">
@@ -58,8 +60,8 @@ const Cart = () => {
       {cartProds.length === 0 ? (
         emptyCartMsg
       ) : (
-        <section fluid className=" py-5">
-          <div className="container py-5">
+        <section fluid className=" pb-5">
+          <div className="container pb-5 pt-4">
             <div className="table-responsive">
               <table className="table">
                 <thead>

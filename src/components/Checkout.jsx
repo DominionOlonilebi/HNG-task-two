@@ -13,7 +13,9 @@ import { Link } from "react-router-dom";
 const Checkout = () => {
   return (
     <div>
-      <div className="cart-page"></div>
+      <div className="cart-page">
+        <img src="./img/pic 1.png" alt="phone image" className="img-fluid"/>
+      </div>
       <section fluid className="message-container pt-5">
         <Container>
           <Row className="d-flex flex-row justify-content-center">

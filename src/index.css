@@ -35,17 +35,13 @@
 }
 
 /* Background styling */
-.background-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../pic\ 14.png);
-  background-size: cover;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
+.background-section .background-div {
+  margin-top: -460px;
+  
+}
 .background-section h1 {
-  color: var(--tertiary);
+  color: black;
   font-size: 50px;
   text-transform: uppercase;
 }
@@ -113,27 +109,12 @@
   margin-bottom: 5px;
   font-weight: 500;
 }
-.cart-page {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url(../pic\ 1.png);
-  background-size: cover;
-  text-align: center;
-  padding-top: 270px;
-  padding-bottom: 270px;
-}
 
 /* Home-page */
 .explore {
   padding-bottom: 50px;
 }
-.explore-img {
-  background-image: url(../pic\ 1.png);
-  background-size: cover;
-  text-align: center;
-  padding-top: 190px;
-  padding-bottom: 190px;
-  margin-bottom: 40px;
-}
+
 .explore .explore-span .explore-btn {
   background-color: var(--primary);
   border-radius: 7px;
@@ -245,29 +226,17 @@
 
 /* media screens */
 @media (max-width: 1024px) {
-  .background-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../pic\ 141.png);
-    background-size: cover;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+  .background-section .background-div {
+    margin-top: -400px;
   }
+  
   .background-section h1 {
-    color: var(--tertiary);
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
+    padding-top: 150px;
   }
   .explore {
     padding-bottom: 40px;
-  }
-  .explore-img {
-    background-image: url(../pic\ 1.png);
-    background-size: cover;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin-bottom: 40px;
   }
   .explore h1 {
     font-size: 30px;
@@ -289,14 +258,6 @@
   .prod-container .name {
     font-size: 14px;
   }
-  .cart-page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-      url(../pic\ 2.png);
-    background-size: cover;
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
   #footer .brand {
     padding: 0;
     background-color: var(--primary);
@@ -312,29 +273,21 @@
 }
 
 @media (max-width: 578px) {
-  .background-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../pic\ 142.png);
-    background-size: cover;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
   .background-section h1 {
-    color: var(--tertiary);
-    font-size: 26px;
+    font-size: 19px;
     text-transform: uppercase;
+  }
+  .background-section .background-input {
+    display: none;
+  }
+  .background-section .background-btn {
+    display: none;
+  }
+  .background-section .background-div {
+    margin-top: -250px;
   }
   .explore {
     padding-bottom: 10px;
-  }
-  .explore-img {
-    background-image: url(../pic\ 1.png);
-    background-size: cover;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin-bottom: 40px;
   }
   .explore h1 {
     font-size: 20px;
@@ -361,14 +314,6 @@
   }
   .prod-container .name {
     font-size: 12px;
-  }
-  .cart-page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-      url(../pic\ 2.png);
-    background-size: cover;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
   }
   .cart-page-name {
     font-size: 12px;

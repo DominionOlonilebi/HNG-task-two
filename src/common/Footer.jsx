@@ -1,16 +1,10 @@
 import React from "react";
-import {  Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
+import { FaEnvelope, FaFacebook, FaInstagram, FaPhone } from "react-icons/fa";
 import {
-  
-  FaEnvelope,
-  FaFacebook,
-
-  FaInstagram,
-  
-  FaPhone,
-  
-} from "react-icons/fa";
-import { FaLinkedin, FaLinkedinIn, FaLocationDot, FaMap, FaMapLocation } from "react-icons/fa6";
+  FaLinkedin,
+  FaLocationDot,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -20,49 +14,47 @@ const Footer = () => {
           <Row className="pt-3 ">
             <div className="col-md-5 col-12 text-center mb-5">
               <div className="row">
-              <div className="col-md-5"></div>
-              <div className="col-md-2">
-              <h5 className="brand justify-content-center text-center text-white mb-2">EP</h5>
+                <div className="col-md-5"></div>
+                <div className="col-md-2">
+                  <h5 className="brand justify-content-center text-center text-white mb-2">
+                    EG
+                  </h5>
+                </div>
+                <div className="col-md-5"></div>
               </div>
-              <div className="col-md-5"></div>
-              </div>
-              <h5 className="brand-name mb-3">Everything <span className="footer-gadget">Gadgets</span> </h5>
+              <h5 className="brand-name mb-3">
+                Everything <span className="footer-gadget">Gadgets</span>{" "}
+              </h5>
               <div>
-              <FaEnvelope className="social-media mx-2"/>
-              <FaFacebook className="social-media mx-2" />
-          <FaInstagram className="social-medias mx-2" />
-          <FaLinkedin className="social-media mx-2" />
+                <FaEnvelope className="social-media mx-2" />
+                <FaFacebook className="social-media mx-2" />
+                <FaInstagram className="social-medias mx-2" />
+                <FaLinkedin className="social-media mx-2" />
               </div>
             </div>
             <div className="col-md-4 col-12 mb-3">
               <h5 className="mb-4">Contact</h5>
               <p>
-                <FaLocationDot/> &nbsp; Ikorodu, Lagos State Nigeria
+                <FaLocationDot /> &nbsp; Ikorodu, Lagos State Nigeria
               </p>
               <p>
-                <FaPhone /> &nbsp; +2348012345678<br/> &nbsp; &nbsp; &nbsp; +2348012345678
+                <FaPhone /> &nbsp; +2348012345678
+                <br /> &nbsp; &nbsp; &nbsp; +2348012345678
               </p>
-              
-              
             </div>
             <div className="col-md-3 col-12 mb-3">
               <h5 className="mb-4">Company</h5>
-              
-              <p className="mx-2">
-                 About-Us{" "}
-              </p>
-              <p className="mx-2">
-                Product
-              </p>
-              <p className="mx-2">
-                  Join Us
-              </p>
+
+              <p className="mx-2">About-Us </p>
+              <p className="mx-2">Product</p>
+              <p className="mx-2">Join Us</p>
             </div>
-            
           </Row>
         </Container>
-        <hr/>
-        <h6 className="text text-center">&copy; 2024 Everything Gadgets. All Rights Reserved</h6>
+        <hr />
+        <h6 className="text text-center">
+          &copy; 2024 Everything Gadgets. All Rights Reserved
+        </h6>
       </Container>
     </div>
   );

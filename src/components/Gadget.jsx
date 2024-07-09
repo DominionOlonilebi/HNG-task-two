@@ -52,7 +52,6 @@ const Gadget = () => {
                           </div>
                           <div className="d-flex justify-content-end px-4">
                             <button
-                              onClick={() => handleAddToCart(phone)}
                               className=" detail-btn py-2 px-3 border-0 text-white"
                             >
                               <Link to="/product" className="link">

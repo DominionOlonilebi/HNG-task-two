@@ -12,12 +12,15 @@ const Prod = () => {
   const navigate = useNavigate();
 
   const handleAddToCart = (product) => {
-    let totalPrice = qty * product.price;
+    let totalPrice = qty * product.Price;
+
+    delete product.Title;
     const tempProduct = {
       ...product,
       quantity: qty,
       totalPrice,
     };
+    console.log(tempProduct);
     dispatch(addToCart(tempProduct));
     navigate("/cart");
   };

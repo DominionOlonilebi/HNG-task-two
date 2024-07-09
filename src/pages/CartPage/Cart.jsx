@@ -36,6 +36,12 @@ const Cart = () => {
     dispatch(removeItem({ id: itemId }));
   };
 
+  // useEffect(() => {
+  //   if(cartProds.length) {
+  //     increaseQty(cartProds[0].id, 0)
+  //   }
+  // }, [])
+
   const emptyCartMsg = (
     <h4 className="container text-center p-4">Your Cart is Empty</h4>
   );

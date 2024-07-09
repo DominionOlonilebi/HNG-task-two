@@ -188,17 +188,17 @@ const Checkout = () => {
                           $ {totalAmounts + deliveryCharge}{" "}
                         </p>
                       </div>
-                      <div className="mx-4 ">
+                      <div className="mx-4 check">
                         <h5 className="summary mb-3">Debit/Credit Card</h5>
                         <input type="radio" className="mb-3 mt-2" />
-                        <span className="mx-2 check ">Bank</span>
+                        <span className="mx-2">Bank</span>
                         <br />
                         <input
                           type="radio"
                           checked
                           className="radio-btn mb-4"
                         />
-                        <span className="mx-2 check">Cash on Delivery</span>
+                        <span className="mx-2">Cash on Delivery</span>
                       </div>
                     </div>
                   </div>

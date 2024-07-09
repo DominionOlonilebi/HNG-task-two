@@ -55,12 +55,12 @@ const Cart = () => {
           </Link>
           <li className="breadcrumb-item active text-danger">Cart</li>
         </ol>
-      </section>
+      
 
       {cartProds.length === 0 ? (
         emptyCartMsg
       ) : (
-        <section fluid className=" pb-5">
+        <section fluid className=" pb-5 cart-table">
           <div className="container py-5">
             <div className="table-responsive">
               <table className="table">
@@ -144,19 +144,18 @@ const Cart = () => {
                 </tbody>
               </table>
             </div>
-            <div className="row g-4 justify-content-end checkout">
-              <div className="col-8"></div>
+            <div className="row g-4 justify-content-center checkout mt-5">
               <div className="col-sm-8 col-md-7 col-lg-6 col-xl-4">
                 <div className="bg-light rounded">
                   <div className="p-4">
                     <h4 className="text-center mb-4">
                       Cart <span className="fw-normal">Total</span>
                     </h4>
-                    <div className="d-flex justify-content-between mb-4">
+                    <div className="d-flex justify-content-between mb-4 border-bottom">
                       <h5 className="mb-0 me-4">Subtotal:</h5>
                       <p className="mb-0">$ {totalAmounts} </p>
                     </div>
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between ">
                       <h5 className="mb-0 me-4">Shipping:</h5>
                       <div>
                         <p className="mb-0"> $ {deliveryCharge} </p>
@@ -183,6 +182,7 @@ const Cart = () => {
           </div>
         </section>
       )}
+      </section>
     </>
   );
 };

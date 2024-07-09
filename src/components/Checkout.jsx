@@ -156,7 +156,7 @@ const Checkout = () => {
                   type="submit"
                   className="form-control submit-button mt-4 mb-5 border-0"
                 >
-                  Place Order
+                 <Link to='/confirm' className="order">Place Order</Link> 
                 </Button>
               </Form>
             </div>

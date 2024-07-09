@@ -5,7 +5,7 @@ const Collection = [
       "Apple, Dell, Hp, Lenovo, Acer, Samsung, Microsoft, LG, Toshiba, Huawei.. more",
     Price: "213 Product",
     Img: "./img/pic 3.png",
-    Name: "Laptops",
+    Name: "MacBook PRO",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const Collection = [
       "Apple, Dell, Hp, Lenovo, Acer, Samsung, Microsoft, LG, Toshiba, Huawei.. more",
     Price: "213 Product",
     Img: "./img/pic 2.png",
-    Name: "Laptops",
+    Name: "Samsung",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const Collection = [
       "Apple, Dell, Hp, Lenovo, Acer, Samsung, Microsoft, LG, Toshiba, Huawei.. more",
     Price: "213 Product",
     Img: "./img/pic 4.png",
-    Name: "Laptops",
+    Name: "LG Deskstop",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const Collection = [
       "Apple, Dell, Hp, Lenovo, Acer, Samsung, Microsoft, LG, Toshiba, Huawei.. more",
     Price: "213 Product",
     Img: "./img/pic 5.png",
-    Name: "Laptops",
+    Name: "Acer Laptops",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const Collection = [
       "Apple, Dell, Hp, Lenovo, Acer, Samsung, Microsoft, LG, Toshiba, Huawei.. more",
     Price: "213 Product",
     Img: "./img/pic 3.png",
-    Name: "Laptops",
+    Name: "Hp Laptops",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const Collection = [
       "Apple, Dell, Hp, Lenovo, Acer, Samsung, Microsoft, LG, Toshiba, Huawei.. more",
     Price: "213 Product",
     Img: "./img/pic 7.png",
-    Name: "Laptops",
+    Name: "Lenovo",
   },
 ];
 

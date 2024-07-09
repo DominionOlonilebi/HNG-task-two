@@ -6,7 +6,7 @@ const Detail = [
     Title: <FaStar />,
     Price: 700,
     Img: "./img/pic 2.png",
-    Name: "Iphone14 PRO max",
+    Name: "Tecno Spark 10 PRO",
     Category: "Tecno",
   },
   {
@@ -22,7 +22,7 @@ const Detail = [
     Title: <FaStar />,
     Price: 760,
     Img: "./img/pic 11.png",
-    Name: "Iphone14 PRO max",
+    Name: "Iphone12",
     Category: "Apple",
   },
   {
@@ -30,7 +30,7 @@ const Detail = [
     Title: <FaStar />,
     Price: 410,
     Img: "./img/pic 12.png",
-    Name: "Iphone14 PRO max",
+    Name: "Itel A56",
     Category: "Itel",
   },
   {
@@ -38,7 +38,7 @@ const Detail = [
     Title: <FaStar />,
     Price: 500,
     Img: "./img/pic 10.png",
-    Name: "Iphone14 PRO max",
+    Name: "Xiaomi",
     Category: "Xiaomi",
   },
   {
@@ -46,7 +46,7 @@ const Detail = [
     Title: <FaStar />,
     Price: 650,
     Img: "./img/pic 8.png",
-    Name: "Iphone14 PRO max",
+    Name: "Huawei",
     Category: "Huawei",
   },
 ];

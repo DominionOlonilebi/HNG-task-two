@@ -39,7 +39,6 @@
 
 .background-section .background-div {
   margin-top: -460px;
-  
 }
 .background-section h1 {
   color: black;
@@ -159,6 +158,9 @@
   text-decoration: none;
   color: var(--muted);
 }
+.cart-table .trash {
+  color: var(--pink);
+}
 .message-container .order {
   color: var(--tertiary);
   text-decoration: none;
@@ -167,7 +169,7 @@
   background-color: var(--milky);
 }
 .message-container .form-label {
-  font-size: 14px;
+  font-size: 15px;
 }
 .message-container .message {
   height: 140px;
@@ -180,6 +182,15 @@
 }
 .message-container input {
   border: transparent;
+}
+.message-container .summary {
+  color: var(--pink);
+}
+.message-container input:checked {
+  color: var(--primary);
+}
+.message-container h5 {
+  font-size: 15px;
 }
 .breadcrumbs .link {
   color: var(--brown);
@@ -216,10 +227,10 @@
 }
 .confirm .error-text {
   border-color: var(--gold);
-border-radius: 8px;
-margin-bottom: 18px;
-background-color: var(--tertiary);
-color: var(--gold);
+  border-radius: 8px;
+  margin-bottom: 18px;
+  background-color: var(--tertiary);
+  color: var(--gold);
 }
 .confirm .confirm-btn {
   background-color: var(--primary);
@@ -272,7 +283,7 @@ color: var(--gold);
   .background-section .background-div {
     margin-top: -400px;
   }
-  
+
   .background-section h1 {
     font-size: 35px;
     text-transform: uppercase;
@@ -302,8 +313,8 @@ color: var(--gold);
     font-size: 14px;
   }
   .confirm .error-text {
-  margin-bottom: 18px;
-  font-size: 14px;
+    margin-bottom: 18px;
+    font-size: 14px;
   }
   .confirm .confirm-btn {
     background-color: var(--primary);
@@ -311,7 +322,10 @@ color: var(--gold);
     border-radius: 5px;
     font-size: 15px;
   }
-  
+  .message-container .form-label {
+    font-size: 14px;
+  }
+
   .confirm .acct-details {
     font-weight: 700;
     font-size: 14px;
@@ -388,24 +402,36 @@ color: var(--gold);
   .confirm .error-text {
     margin-bottom: 18px;
     font-size: 11px;
-    }
-    .confirm .confirm-btn {
-      background-color: var(--primary);
-      color: var(--tertiary);
-      border-radius: 5px;
-      font-size: 13px;
-    }
-    
-    .confirm .acct-details {
-      font-weight: 700;
-      font-size: 13px;
-    }
-    .confirm h4 {
-      font-size: 17px;
-    }
-    .confirm p {
-      font-size: 13px;
-    }
+  }
+  .confirm .confirm-btn {
+    background-color: var(--primary);
+    color: var(--tertiary);
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  .confirm .acct-details {
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .confirm h4 {
+    font-size: 17px;
+  }
+  .confirm p {
+    font-size: 13px;
+  }
+  .message-container .form-label {
+    font-size: 13px;
+  }
+  .message-container h5 {
+    font-size: 13px;
+  }
+  .message-container .check {
+    font-size: 13px;
+  }
+  .message-container .submit-button {
+    font-size: 14px;
+  }
   #footer .brand {
     padding: 10px 20px;
     background-color: var(--primary);

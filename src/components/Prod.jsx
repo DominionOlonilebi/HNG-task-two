@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBarsProgress, FaCartShopping } from "react-icons/fa6";
 import { Badge, Breadcrumb, Pagination } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { addToCart } from "../redux/CartSlice.jsx";
 import Detail from "../data/datas.jsx";
+import { useSelector } from "react-redux";
+import { fetchProducts } from "../redux/productSlice.js";
 
 const Prod = () => {
   const dispatch = useDispatch();
   const [qty, setQty] = useState(1);
   const navigate = useNavigate();
+  const { items, status, error } = useSelector((state) => state.products);
 
   const handleAddToCart = (product) => {
     let totalPrice = qty * product.Price;
@@ -35,6 +38,13 @@ const Prod = () => {
       setMenuItems(Detail);
     }
   };
+
+  useEffect(() => {
+    dispatch(fetchProducts());
+  }, []);
+
+  console.log(items, "items");
+  console.log(error, "error");
 
   return (
     <div className="prod-div">
@@ -165,7 +175,10 @@ const Prod = () => {
               <div className="col-md-12 prod-container">
                 <div className="row g-4 d-flex justify-content-center my-prod">
                   {menuItems.map((phone) => (
-                    <div className="col-lg-5 col-md-6 col-12 box" key={phone.id}>
+                    <div
+                      className="col-lg-5 col-md-6 col-12 box"
+                      key={phone.id}
+                    >
                       <div className="card pb-3 border-0 mb-3">
                         <h6>
                           <Badge

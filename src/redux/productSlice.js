@@ -11,7 +11,7 @@ export const fetchProducts = createAsyncThunk(
     try {
       const response = await axios.get(
         `/api/products?organization_id=${organisationId}&reverse_sort=false&page=3&size=10&Appid=${appId}&Apikey=${apiKey}`
-      ); // this is ur endpoint
+      );
       console.log("my response", response);
       return response.data;
     } catch (error) {
